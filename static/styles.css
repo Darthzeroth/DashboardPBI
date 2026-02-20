@@ -1,0 +1,41 @@
+body { overflow: hidden; } /* Evitar scroll doble */
+        
+        #sidebar-wrapper {
+            min-height: 100vh;
+            margin-left: 0;
+            background-color: #212529; /* Fondo oscuro */
+            transition: margin .25s ease-out;
+        }
+        
+        .list-group-item {
+            background-color: transparent;
+            color: #ccc;
+            border: none;
+            padding: 15px 20px;
+        }
+        
+        .list-group-item:hover {
+            background-color: #343a40;
+            color: white;
+            cursor: pointer;
+        }
+        
+        .list-group-item.active {
+            background-color: #0d6efd; /* Azul Bootstrap */
+            color: white;
+            font-weight: bold;
+            border-left: 4px solid white;
+        }
+
+        #page-content-wrapper {
+            width: 100%;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+
+        #report-container {
+            height: 100vh; /* Ocupa toda la altura */
+            width: 100%;
+        }
+        
+        iframe { border: none; }
